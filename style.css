@@ -136,15 +136,14 @@ p{
     text-decoration: none;
 }
 .carousel-item{
-    height: 50vh;
-    min-height: 200px;
     background: no-repeat center center scroll;
     -webkit-backdrop-size: cover;
     background-size: cover;
 }
-#carousel img{
-    width: 25%;
-    height: 150px;
+section div img{
+    height: 277px;
+    min-height: 400px;
+    
 }
 .carousel-caption{
     bottom: 20px;
