@@ -1,0 +1,185 @@
+@font-face{
+    font-family: 'Henny';
+    src: url(fonts/HennyPenny-Regular.otf);
+   
+}
+@font-face{
+    font-family: 'gabi';
+    src: url(fonts/Gabriela-Regular.ttf);
+}
+header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+.navbar{
+    padding: 20px 0;
+}
+.navbar-brand{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #cb4752;
+    
+}
+.nav-item{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'gabi';
+}
+.navbar-dark .navbar-nav .nav-item .nav-link:hover,
+.navbar-dark .navbar-nav .nav-item.active .nav-link
+{
+    background-color: black;
+    color: #cb4752;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link{
+    color: white;
+    padding: 5px 15px;
+}
+.banner{
+    position: relative;
+    background: url(teste1.png);
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+.banner h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 1000;
+    color: #cb4752;
+    text-transform: uppercase;
+    font-family: 'Henny';
+}
+.banner p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #717171;
+    font-family:  'gabi';
+}
+.btnD1{
+    display: inline-block;
+    margin: 1em 0 0;
+    background: gray;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 800;
+    font-family:  'gabi';
+}
+.btnD1:hover
+{
+    color: white;
+    text-decoration: none;
+    background: #cb4752;
+}
+.navbar-dark .navbar-toggler{
+    border: none;
+    color: black;
+    border:  2px solid black;
+    border-radius: 0;
+    outline: none;
+}
+.navbar-toggler{
+    background: brown;
+}
+.posts{
+    position: relative;
+    background: url(teste3.png);
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.img-thumbnail{
+    width: 200px;
+    height: 150px;
+    margin-top: 25px;
+    position: relative;
+
+}
+footer{
+    position: relative;
+    background: url(teste1.png);
+    min-height: 10vh;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 50px;
+}
+h3 {
+    color: cornsilk;
+    margin-left: 15px; 
+    font-family:  'gabi';
+}
+p{
+    color: ivory;
+}
+.btnD2{
+    display: inline-block;
+    margin: 1em 0 0;
+    background: brown;
+    color: white;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500;
+    font-family:  'gabi';
+}
+.btnD2:hover
+{
+    color: black;
+    text-decoration: none;
+}
+.carousel-item{
+    height: 50vh;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+}
+#carousel img{
+    width: 25%;
+    height: 150px;
+}
+.carousel-caption{
+    bottom: 20px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top:  25px;
+    font-family: merienda;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background: #262626;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px)
+{
+    .banner{
+        padding: 200px 0;
+    }
+    .banner h2{
+        font-size: 1.8em;
+    }
+
+}
+
