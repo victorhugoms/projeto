@@ -39,7 +39,7 @@ header{
 }
 .banner{
     position: relative;
-    background: url(teste1.png);
+    background:black;
     min-height: 70vh;
     background-size: cover;
     background-position: center;
@@ -91,7 +91,7 @@ header{
 }
 .posts{
     position: relative;
-    background: url(teste3.png);
+    background: url(menupost2.jpg);
     min-height: 200px;
     background-size: cover;
     background-position: center;
@@ -101,7 +101,8 @@ header{
     height: 150px;
     margin-top: 25px;
     position: relative;
-
+    margin-bottom: 10px;
+    
 }
 footer{
     position: relative;
@@ -113,11 +114,14 @@ footer{
 }
 h3 {
     color: cornsilk;
-    margin-left: 15px; 
     font-family:  'gabi';
+    text-align: center;
 }
 p{
     color: ivory;
+}
+.post-center{
+    text-align: center;
 }
 .btnD2{
     display: inline-block;
@@ -129,6 +133,7 @@ p{
     border: none;
     font-weight: 500;
     font-family:  'gabi';
+    margin-bottom: 10px;
 }
 .btnD2:hover
 {
