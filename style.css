@@ -176,6 +176,22 @@ section div img{
     margin-top: 15px;
 }
 
+.title_post{
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.text_post{
+    padding: 5px;
+    color: white !important; 
+}
 
 @media (max-width: 768px)
 {
