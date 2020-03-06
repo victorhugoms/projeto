@@ -79,6 +79,9 @@ header{
     text-decoration: none;
     background: #cb4752;
 }
+.fundo{
+    background-color: black;
+}
 .navbar-dark .navbar-toggler{
     border: none;
     color: black;
