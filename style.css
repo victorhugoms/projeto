@@ -7,6 +7,10 @@
     font-family: 'gabi';
     src: url(fonts/Gabriela-Regular.ttf);
 }
+@font-face{
+    font-family: 'Frederick';
+    src: url(fonts/FrederickatheGreat-Regular.ttf);
+}
 header{
     position: absolute;
     z-index: 10;
@@ -78,6 +82,9 @@ header{
     color: white;
     text-decoration: none;
     background: #cb4752;
+}
+.fundo{
+    background-color: black;
 }
 .navbar-dark .navbar-toggler{
     border: none;
@@ -222,4 +229,5 @@ section img{
     }
 
 }
+
 
