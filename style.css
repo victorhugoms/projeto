@@ -196,6 +196,35 @@ section div img{
     color: white !important; 
 }
 
+.control-label{
+    color: #fff;
+}
+
+.contato-title{
+    color: #cb4752;
+    font-family: 'Henny';
+}
+
+.find-widget{
+    color: white;
+    margin: 10px;
+}
+
+.iconeface{
+    padding-left: 22px;
+    background: url(facebook.png) no-repeat left center;
+}
+
+.iconezap{
+    padding-left: 22px;
+    background: url(whatsapp.png) no-repeat left center;
+}
+
+.iconeinsta{
+    padding-left: 22px;
+    background: url(instagram.png) no-repeat left center;
+}
+
 @media (max-width: 768px)
 {
     .banner{
