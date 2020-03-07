@@ -103,6 +103,16 @@ header{
     background-size: cover;
     background-position: center;
 }
+.postsportifo{
+    position: relative;
+    background: url(menupost2.jpg);
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8   0px;
+    
+}
+
 .img-thumbnail{
     width: 200px;
     height: 150px;
@@ -152,10 +162,10 @@ p{
     -webkit-backdrop-size: cover;
     background-size: cover;
 }
-section div img{
+section img{
     height: 277px;
     min-height: 400px;
-    
+    position: relative;  
 }
 .carousel-caption{
     bottom: 20px;
@@ -188,11 +198,11 @@ section div img{
     color: white;
     text-align: center;
 }
-
-
-.img-fluid{
-    width: 100%;
-    height: auto;
+.imgpost{
+    margin-top: 25px;
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .text_post{
