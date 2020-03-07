@@ -310,11 +310,19 @@ section div img{
     opacity: 1;
   }
 
-  .h1n1{
+  .title{
       font-family: 'Frederick';
       color: #cb4752 ;
-      position: center;
+      text-align: center;
   }
+  .timeline-img{
+      width: 100%;
+      height: 50%;
+      margin-bottom: 20px;
+      margin-top: 10px;
+  }
+    
+  
 
 
 
