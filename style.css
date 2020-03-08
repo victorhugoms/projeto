@@ -238,11 +238,18 @@ section img{
     padding-left: 22px;
     background: url(instagram.png) no-repeat left center;
 }
+.titleVDT{
+    font-family: 'Frederick';
+    color: #F45B69;
+    text-align: center;
+
+}
+
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline ul {
-    background: #456990;
+    background: black;
     padding: 50px 0;
   }
   
@@ -273,6 +280,7 @@ section img{
     width: 400px;
     padding: 15px;
     background: #F45B69;
+    font-family: 'gabi';
   }
   
   .timeline ul li div::before {
