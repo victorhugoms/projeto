@@ -224,6 +224,7 @@ section img{
     margin: 10px;
 }
 
+
 .iconeface{
     padding-left: 22px;
     background: url(facebook.png) no-repeat left center;
@@ -281,7 +282,12 @@ section img{
     padding: 15px;
     background: #F45B69;
     font-family: 'gabi';
+    color: black;
+    font-size: large;
   }
+  time{
+    color: white;
+}
   
   .timeline ul li div::before {
     content: '';
@@ -300,6 +306,7 @@ section img{
     left: -15px;
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
+    
   }
   
   .timeline ul li:nth-child(even) div {
