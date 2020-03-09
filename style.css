@@ -195,8 +195,9 @@ section img{
 
 .title_post{
     margin: 20px;
-    color: white;
+    color: #cb4752;
     text-align: center;
+    font-family: Frederick;
 }
 .imgpost{
     margin-top: 25px;
@@ -205,6 +206,9 @@ section img{
     border-radius: 10px;
 }
 
+aside{
+    padding: 25px;
+}
 .text_post{
     padding: 5px;
     color: white !important; 
@@ -245,6 +249,7 @@ section img{
     text-align: center;
 
 }
+
 
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
