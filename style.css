@@ -20,10 +20,12 @@ header{
     padding: 20px 0;
 }
 .navbar-brand{
-    font-weight: 300;
+    
     text-transform: uppercase;
     font-size: 1em;
     color: #cb4752;
+    font-family: Henny;
+    font-size: 40px;
     
 }
 .nav-item{
@@ -47,7 +49,7 @@ header{
     min-height: 70vh;
     background-size: cover;
     background-position: center;
-    padding: 250px 0 200px;
+    padding: 200px 0 200px;
 }
 .banner h2{
     margin: 0;
@@ -58,6 +60,7 @@ header{
     text-transform: uppercase;
     font-family: 'Henny';
 }
+
 .banner p{
     margin: 1em 0 0;
     padding: 0;
@@ -82,6 +85,9 @@ header{
     color: white;
     text-decoration: none;
     background: #cb4752;
+}
+.btn2{
+    padding: 0 0 0 0;
 }
 .fundo{
     background-color: black;
