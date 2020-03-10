@@ -11,6 +11,10 @@
     font-family: 'Frederick';
     src: url(fonts/FrederickatheGreat-Regular.ttf);
 }
+@font-face{
+    font-family: 'Nothing You Could Do';
+    src: url(fonts/NothingYouCouldDo-Regular.ttf);
+}
 header{
     position: absolute;
     z-index: 10;
@@ -24,7 +28,7 @@ header{
     text-transform: uppercase;
     font-size: 1em;
     color: #cb4752;
-    font-family: Henny;
+    font-family: Nothing You Could Do;
     font-size: 40px;
     
 }
