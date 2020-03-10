@@ -239,6 +239,12 @@ section img{
     padding-left: 22px;
     background: url(instagram.png) no-repeat left center;
 }
+
+.iconemail{
+    padding-left: 22px;
+    background: url(mail.png) no-repeat left center;
+}
+
 .titleVDT{
     font-family: 'Frederick';
     color: #F45B69;
