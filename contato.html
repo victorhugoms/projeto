@@ -46,12 +46,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content.</p>
-
+                      <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                        <p class="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content.</p>
+          
                           <div class="find-widget">
                             <a class="iconezap" href="whatsapp.png"></a>
-                            Celular:   <a href="#">+55 (11)964463598 </a>
+                            Celular: <a>+55 (11) 964463598</a>
                           </div>
 
                           <div class="find-widget">
@@ -72,27 +72,34 @@
                         </div>
 
                         <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
-                            <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                            <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator" >
 
                                 <div class="form-group label-floating">
-                                  <label class="control-label" for="name">Nome</label>
+                                  <label class="control-label" for="name">Seu nome:</label>
                                   <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
                                   <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group label-floating">
-                                  <label class="control-label" for="email">Email</label>
+                                  <label class="control-label" for="email">Seu email:</label>
                                   <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
                                   <div class="help-block with-errors"></div>
                                 </div>
 
+                                
                                 <div class="form-group label-floating">
-                                    <label for="message" class="control-label">Mensagem</label>
+                                  <label for="subject" class="control-label">Assunto:</label>
+                                  <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                                  <div class="help-block with-errors"></div>
+                              </div>
+
+                                <div class="form-group label-floating">
+                                    <label for="message" class="control-label">Sua mensagem:</label>
                                     <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
-                                <div class="form-submit mt-5">
+                                <div class="form-submit mt-3">
                                     <button class="btnD2" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Enviar Mensagem</button>
                                     <div id="msgSubmit" class="h3 text-center hidden"></div>
                                     <div class="clearfix"></div>
