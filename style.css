@@ -20,14 +20,14 @@
     font-family: 'Nothing You Could Do';
     src: url(fonts/NothingYouCouldDo-Regular.ttf);
 }
-header{
+.header{
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     width: 100%;
-    background-color: #cb4752;
+    background-color:black;
 }
 .navbar{
-    padding: 20px 0;
+    padding: 0 0;
 }
 .navbar-brand{
     
@@ -38,20 +38,32 @@ header{
     font-size: 40px;
     
 }
+.header-s{
+    position: fixed;
+    background-color: #cb4752;
+    
+
+}
 .nav-item{
-    font-weight: 800;
+    font-weight: 100;
     text-transform: uppercase;
     font-family: 'gabi';
 }
 .navbar-dark .navbar-nav .nav-item .nav-link:hover,
 .navbar-dark .navbar-nav .nav-item.active .nav-link
 {
-    background-color: black;
-    color: #cb4752;
+    color: white;
 }
+.active{
+    
+    text-decoration: underline;
+    
+}
+
 .navbar-dark .navbar-nav .nav-item .nav-link{
     color: white;
     padding: 5px 15px;
+    border-radius: 4px;
 }
 .banner{
     position: relative;
@@ -307,7 +319,7 @@ aside{
     bottom: 0;
     width: 400px;
     padding: 15px;
-    background: #F45B69;
+    background: #cb4752;
     font-family: 'gabi';
     color: black;
     font-size: large;

@@ -30,3 +30,17 @@ window.addEventListener("resize", callbackFunc);
 window.addEventListener("scroll", callbackFunc);
 
 })();
+
+$(document).ready(function(){
+  var altura = $('.header').offset().top;
+  
+  $(window).on('scroll', function () {
+     if ($(window).scrollTop() > altura) {
+         $('.header').addClass('header-s');
+     } else {
+         $('.header').removeClass('header-s');
+        
+     }
+  });
+
+});
