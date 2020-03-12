@@ -36,7 +36,7 @@
     text-transform: uppercase;
     font-size: 1em;
     color: white!important;
-    font-family: hunble;
+    font-family: gabi;
     font-size: 40px;
     
 }
@@ -292,7 +292,7 @@ a{
 
 .titleVDT{
     font-family: 'Frederick';
-    color: #F45B69;
+    color: #cb4752;
     text-align: center;
 
 }
@@ -357,7 +357,7 @@ a{
   .timeline ul li:nth-child(odd) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #F45B69 transparent transparent;
+    border-color: transparent #cb4752 transparent transparent;
     
   }
   
@@ -368,7 +368,7 @@ a{
   .timeline ul li:nth-child(even) div::before {
     right: -15px;
     border-width: 8px 0 8px 16px;
-    border-color: transparent transparent transparent #F45B69;
+    border-color: transparent transparent transparent #cb4752;
   }
   
   time {
@@ -387,7 +387,7 @@ a{
   }
   
   .timeline ul li.in-view::after {
-    background: #F45B69;
+    background: #cb4752;
   }
   
   .timeline ul li div {
@@ -444,7 +444,7 @@ a{
     .timeline ul li:nth-child(even) div::before {
       left: -15px;
       border-width: 8px 16px 8px 0;
-      border-color: transparent #F45B69 transparent transparent;
+      border-color: transparent #cb4752 transparent transparent;
     }
 }
 
