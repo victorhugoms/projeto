@@ -254,9 +254,13 @@ aside{
 
 .find-widget{
     color: white;
-    margin: 30px;
+    padding: 20px;
+    font-size: 20px;
 }
 
+.control-label{
+    font-size: 20px;
+}
 
 .iconeface{
     padding-left: 22px;
@@ -276,6 +280,14 @@ aside{
 .iconemail{
     padding-left: 22px;
     background: url(mail.png) no-repeat left center;
+}
+
+a{
+    color: cornsilk;
+}
+
+.banner p{
+    color: cornsilk;
 }
 
 .titleVDT{
